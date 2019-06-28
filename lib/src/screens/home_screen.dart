@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:tractiondoggo/src/screens/updates_screen.dart';
 
 class HomeScreen extends StatefulWidget {
   static const String tag = 'home-screen';
@@ -18,13 +19,26 @@ class HomeScreenState extends State<HomeScreen> {
 
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Container(),
+      body: bodyScreen(),
       bottomNavigationBar: BottomNavigationBar(
         currentIndex: _currentIndex,
         items: navItems(),
         onTap: (index) => _changeTab(index),
       ),
     );
+  }
+
+  Widget bodyScreen() {
+    switch (_currentIndex) {
+      case 0:
+        return UpdatesScreen();
+      case 1:
+        return Container();
+      case 2:
+        return Container();
+      default:
+        return UpdatesScreen();
+    }
   }
 
   List<BottomNavigationBarItem> navItems() {
