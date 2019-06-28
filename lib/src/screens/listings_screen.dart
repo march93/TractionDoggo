@@ -11,10 +11,10 @@ class ListingsScreen extends StatelessWidget {
       children: <Widget>[
         SizedBox(height: 25,),
         HeaderText(content: 'Listings',),
-        SizedBox(height: 50,),
+        SizedBox(height: 25,),
 
         // List view of dog listings
-        ListingsList(),
+        Expanded(child: ListingsList()),
       ],
     );
   }

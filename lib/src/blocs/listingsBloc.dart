@@ -5,42 +5,42 @@ class ListingsBloc {
     {
       'name': 'Bane',
       'description': 'Will eat all your Lucky Charms.',
-      'imageURL': 'graphics/bane.jpg',
+      'imageURL': 'assets/images/bane.jpg',
     },
     {
       'name': 'Chewbacca',
       'description': '8 feet tall when fully grown.',
-      'imageURL': 'graphics/chewbacca.jpg',
+      'imageURL': 'assets/images/chewbacca.jpg',
     },
     {
       'name': 'Foxy',
       'description': 'Distant relative of Mia',
-      'imageURL': 'graphics/foxy.jpg',
+      'imageURL': 'assets/images/foxy.jpg',
     },
     {
       'name': 'Mia',
       'description': 'Has beef with all the Ryan\'s in the world',
-      'imageURL': 'graphics/mia.jpg',
+      'imageURL': 'assets/images/mia.jpg',
     },
     {
       'name': 'Riley',
       'description': 'Requires athlete level cardio in order to take her for a walk',
-      'imageURL': 'graphics/riley.jpg',
+      'imageURL': 'assets/images/riley.jpg',
     },
     {
       'name': 'Sif',
       'description': 'Looks to be about 90% fluff',
-      'imageURL': 'graphics/sif.jpg',
+      'imageURL': 'assets/images/sif.jpg',
     },
     {
       'name': 'Thor',
       'description': 'Requires attention 24/7.',
-      'imageURL': 'graphics/thor.jpg',
+      'imageURL': 'assets/images/thor.jpg',
     },
     {
       'name': 'Gabe',
       'description': 'Can be persuaded with treats, and only obeys to commands in Portuguese.',
-      'imageURL': 'graphics/gabe.png',
+      'imageURL': 'assets/images/gabe.png',
     },
   ];
 
