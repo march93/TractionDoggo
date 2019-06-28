@@ -5,4 +5,9 @@ class AppTheme {
     fontSize: 32,
     fontWeight: FontWeight.bold,
   );
+
+  static final TextStyle nullTextTheme = TextStyle(
+    fontSize: 20,
+    fontWeight: FontWeight.w300,
+  );
 }
