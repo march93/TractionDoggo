@@ -18,6 +18,7 @@ class HomeScreenState extends State<HomeScreen> {
 
   Widget build(BuildContext context) {
     return Scaffold(
+      body: Container(),
       bottomNavigationBar: BottomNavigationBar(
         currentIndex: _currentIndex,
         items: navItems(),
