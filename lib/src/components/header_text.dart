@@ -9,7 +9,7 @@ class HeaderText extends StatelessWidget{
 
   Widget build(BuildContext context) {
     return Container(
-      padding: EdgeInsets.only(left: 10, top: 10),
+      padding: EdgeInsets.only(left: 15, top: 10),
       child: Text(
         content,
         style: headerText,

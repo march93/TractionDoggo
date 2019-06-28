@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:tractiondoggo/src/screens/listings_screen.dart';
 import 'package:tractiondoggo/src/screens/updates_screen.dart';
 
 class HomeScreen extends StatefulWidget {
@@ -25,6 +26,7 @@ class HomeScreenState extends State<HomeScreen> {
         items: navItems(),
         onTap: (index) => _changeTab(index),
       ),
+      floatingActionButton: _currentIndex == 1 ? floatingButton() : null,
     );
   }
 
@@ -33,7 +35,7 @@ class HomeScreenState extends State<HomeScreen> {
       case 0:
         return UpdatesScreen();
       case 1:
-        return Container();
+        return ListingsScreen();
       case 2:
         return Container();
       default:
@@ -56,5 +58,12 @@ class HomeScreenState extends State<HomeScreen> {
         title: Text('People'),
       ),
     ];
+  }
+
+  Widget floatingButton() {
+    return FloatingActionButton(
+      child: Icon(Icons.add),
+      onPressed: () {},
+    );
   }
 }
