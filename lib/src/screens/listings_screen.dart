@@ -9,7 +9,6 @@ class ListingsScreen extends StatelessWidget {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.stretch,
       children: <Widget>[
-        SizedBox(height: 25,),
         HeaderText(content: 'Listings',),
         SizedBox(height: 25,),
 

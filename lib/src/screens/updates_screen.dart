@@ -7,7 +7,6 @@ class UpdatesScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Column(
       children: <Widget>[
-        SizedBox(height: 25,),
         HeaderText(content: 'Updates',),
       ],
     );

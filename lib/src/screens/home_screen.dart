@@ -9,7 +9,7 @@ class HomeScreen extends StatefulWidget {
   HomeScreenState createState() => HomeScreenState();
 }
 
-class HomeScreenState extends State<HomeScreen> {  
+class HomeScreenState extends State<HomeScreen> {
   int _currentIndex = 0;
 
   void _changeTab(int index) {
@@ -20,7 +20,7 @@ class HomeScreenState extends State<HomeScreen> {
 
   Widget build(BuildContext context) {
     return Scaffold(
-      body: bodyScreen(),
+      body: SafeArea(child: bodyScreen()),
       bottomNavigationBar: BottomNavigationBar(
         currentIndex: _currentIndex,
         items: navItems(),
